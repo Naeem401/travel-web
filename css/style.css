@@ -16,6 +16,11 @@
     font-weight: 700;
     cursor: pointer;
 }
+.tital{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
     .description{
         color: rgba(19, 19, 24, 0.70);
         font-size: 1rem;
@@ -128,6 +133,30 @@ form button span{
 .btn i{
     margin-right: 1rem;
 }
+main{
+    width: 85%;
+    margin: 0 auto;
+}
+/* Our Popular Tours */
+
+.popular-section{
+    margin-top: 6rem;
+    display: flex;
+    gap: 3rem;
+}
+.popular-section p, .popular-section ul li{
+    margin-top: 1rem;
+}
+.popular-section ul{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.popular-section button{
+    margin-top: 2rem;
+}
+.popular-section .right-img img{
+    width: 100%;
+  }
 /* mobile responcive style */
 
 @media screen and (max-width:576px) {
@@ -172,4 +201,13 @@ form button span{
         }
         .btn{
             width: 92%;}
+    main{
+        width: 90%;
+    }
+  .popular-section{
+    flex-direction: column;
+  }
+  .popular-section button{
+    width: 10rem;
+  }
 }
