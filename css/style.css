@@ -180,8 +180,8 @@ main{
   }
  .img-text h2{
     position: absolute;
-    top: 40%;
-    right: 40%;
+    top: 50%;
+    right: 50%;
     color: #FFF;
     font-size: 1.75rem;
     font-weight: 800;
@@ -189,6 +189,7 @@ main{
   .tow, .three{
     margin-top: 1.5rem;
   }
+                  /* why choose-us sevtion */
   .choose-us{
     margin-top: 6rem;
   }
@@ -235,13 +236,16 @@ text-align: center;
     margin: 0 auto;
     background-color: #fef6f6;
 }
-form label{
-    display: block;
-}
+                        /* newsletter and subscribe section style */
 .newsletter{
     display: flex;
     margin-top: 6rem;
     gap: 1.5rem;
+}
+.news-tital{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 .newsletter p{
     margin-top: 1rem;
@@ -249,7 +253,7 @@ form label{
 .subscribe-form{
     padding: 2.5rem;
     border-radius: 1rem;
-border: 1px solid #FF5400;
+    border: 1px solid #FF5400;
 }
 .subscribe-form form{
     margin-top: 3rem;
@@ -269,6 +273,69 @@ border: 1px solid #FF5400;
 }
 .buton{
     width: 100%;
+    padding: 0.87rem 0;
+    border-radius: 0.5rem;
+    background-color: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+.discunt-img{
+    position: relative;
+}
+.discunt-img .discunt{
+    border-radius: 1rem;
+    background: #FF5400;
+    position: absolute;
+    width: 46%;
+    right: 1rem;
+    bottom: 3rem;
+    transform: rotate(-19.628deg);
+    text-align: center;
+    padding: 1rem 0;
+}
+.discunt h2{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.discunt small{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+footer{
+    margin-top: 6rem;
+    width: 100%;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 6rem 0;
+}
+footer .logo{
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+footer p{
+    margin-bottom: 1rem;
+}
+footer .icons{
+   display: inline-flex;
+   gap: 2rem;
+}
+footer .icons i{
+   font-size: 2rem;
+   margin-bottom: 2rem;
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
+footer .right{
+    margin-top: 2rem;
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
 }
 /* mobile responcive style */
 
@@ -330,6 +397,9 @@ border: 1px solid #FF5400;
     height: 16rem;
     object-fit: cover;
   }
+  .img-text h2{
+   font-size: 1.25rem;
+  }
   .choose-us{
     margin-top: 1.5rem;
   }
@@ -348,8 +418,15 @@ border: 1px solid #FF5400;
 .card-tital{
     font-size: 1.25rem;
 }
-/* .discunt-img img{
-width: 100%;
-} */
-
+.subscribe-form{
+    padding: 1rem;
+}
+.discunt h2{
+    color: #FFF;
+    font-size: 1rem;
+}
+.discunt small{
+    font-size: 0.5rem;
+    font-weight: 400;
+}
 }
